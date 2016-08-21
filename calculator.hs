@@ -1,5 +1,6 @@
-transformPlayer :: Integer -> Integer
-transformPlayer r = 
+transformPlayer :: Integer -> Double
+transformPlayer a = 10 ^ (a/400)
 
 
-transformOpponent ::
+transformOpponent :: Integer -> Double
+transformOpponent b = 10 ^ (b/400)
